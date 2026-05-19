@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -21,6 +25,20 @@ button {
     padding: 10px 20px;
     border-radius: 11%;
     border: none;
+
+    &:hover {
+        background-color: white;
+        color: #1F2937;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        color: #3882F6;
+    }
 }
 
 .header {
@@ -58,8 +76,8 @@ button {
         padding-left: 50px;
         padding-right: 50px;
     }
-    
-    .hero-left p{
+
+    .hero-left p {
         padding-top: 10px;
         padding-bottom: 15px;
     }
@@ -94,8 +112,8 @@ button {
     align-items: center;
 }
 
-.info-box img{
-     padding-bottom: 15px;
+.info-box img {
+    padding-bottom: 15px;
 }
 
 .quote-part {
@@ -142,7 +160,7 @@ button {
     border: #E5E7EB 1px solid;
 }
 
-.footer{
+.footer {
     background-color: #1F2937;
     text-align: center;
     color: white;
